@@ -1,5 +1,5 @@
 const change = () => {
-  const images = document.querySelectorAll('img');
+  const images = document.querySelectorAll('.image');
   if (images[0].classList.contains('hide')) {
     images[0].classList.remove('hide');
     images[1].classList.add('hide');
