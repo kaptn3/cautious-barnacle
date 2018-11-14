@@ -1,9 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
-a {
+.nav {
+  padding: 15px;
+}
+
+.icon-a {
   position: fixed;
   display: block;
   width: 50px;
