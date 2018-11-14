@@ -2,28 +2,14 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<style type="text/css">
-	.hide {
-		display: none;
-	}
-</style>
 <body>
-	<a onclick="change()" style="position: fixed; bottom: 50px; right: 50px;">Переключить</a>
-	<img class="image1 hide" style="width: 100%; height: auto;" src="https://kaptn.ru/cautious-barnacle/interneturok/1.png">
-	<img class="image2" style="width: 100%; height: auto;" src="https://kaptn.ru/cautious-barnacle/interneturok/1-grid.jpg">
-<script>
-	function change() {
-		const images = document.querySelectorAll('img');
-		if (images[0].classList.contains('hide')) {
-			images[0].classList.remove('hide');
-			images[1].classList.add('hide');
-			console.log('err')
-		} else {
-			images[1].classList.remove('hide');
-			images[0].classList.add('hide');
-		}
-}
-</script>
+	<a onclick="change()">
+		<img src="img/icon.png" alt="Переключить">
+	</a>
+	<img class="image1" src="https://kaptn.ru/cautious-barnacle/interneturok/1.png">
+	<img class="image2 hide" src="https://kaptn.ru/cautious-barnacle/interneturok/1-grid.jpg">
+<script src="js/main.js"></script>
 </body>
 </html>
