@@ -30,3 +30,7 @@ img {
 .hide {
   display: none;
 }
+
+.current {
+  color: #00ff00;
+}
