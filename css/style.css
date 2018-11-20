@@ -19,6 +19,7 @@ body {
   width: 50px;
   bottom: calc(33% - 50px);
   right: 30px;
+  cursor: pointer;
 }
 
 img {
@@ -33,4 +34,16 @@ img {
 
 .current {
   color: #2b942b;
+}
+
+.icon-a__show {
+  display: none;
+  top: 100%;
+  left: 0;
+  text-align: left;
+  position: absolute;
+}
+
+.icon-a:hover .icon-a__show {
+  display: block;
 }
